@@ -1,0 +1,14 @@
+! run_drag_simulation.jou
+! Placeholder ANSYS journal script for running drag simulation.
+! Reads design_parameters.txt for geometry parameters and writes drag_output.txt.
+
+/COM, This is a pseudo-code template; fill with actual APDL or journal commands.
+/INPUT,design_parameters.txt
+/COM, Build geometry and mesh based on parameters
+/COM, Apply boundary conditions and run CFD analysis
+/COM, Extract drag force and write to drag_output.txt
+
+*CFOPEN,drag_output,txt
+*VWRITE,0.0
+(F10.3)
+*CFCLOSE
